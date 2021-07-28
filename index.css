@@ -1,0 +1,64 @@
+:root{
+
+    margin: 0;
+    padding: 0;
+    
+    --Cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body{
+    background-color: rgb(216, 203, 203);
+}
+.content{
+    background-color: var(--Light-Gray);
+    display: inline-block;
+    position: relative;
+    padding: 25px;
+
+    
+}
+h3{
+    color: green;
+}
+
+.container{
+    width: 600px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.info{
+    display: flex;
+    height: 200px;
+    
+    
+   
+}
+.sign-up{
+    background-color: var(--Cyan);
+    width: 450px;
+}
+.why-us{
+    background-color: var(--Cyan);
+    opacity: 0.8;
+    width: 450px;
+    
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: var(--Light-Gray);
+    border: none;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 80px;
+    border-radius: 15px;
+
+    
+}
