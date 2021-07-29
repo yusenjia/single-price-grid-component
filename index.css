@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 :root{
 
     margin: 0;
@@ -10,15 +11,15 @@
 }
 
 body{
-    background-color: rgb(216, 203, 203);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
 }
 .content{
     background-color: var(--Light-Gray);
     display: inline-block;
     position: relative;
-    padding: 25px;
-
-    
+    padding: 15px;  
+    font-weight: 400;
 }
 h3{
     color: green;
@@ -26,7 +27,6 @@ h3{
 
 .container{
     width: 600px;
-    
     position: absolute;
     left: 50%;
     top: 50%;
@@ -36,18 +36,21 @@ h3{
 .info{
     display: flex;
     height: 200px;
-    
-    
-   
 }
 .sign-up{
     background-color: var(--Cyan);
     width: 450px;
+    color: var(--Light-Gray);
+    padding-top: 15px;
+    padding-left: 15px;
+    
 }
 .why-us{
     background-color: var(--Cyan);
     opacity: 0.8;
     width: 450px;
+    color: var(--Light-Gray);
+    padding: 15px;
     
 }
 
@@ -58,7 +61,25 @@ button{
     margin: 0 auto;
     display: block;
     padding: 15px 80px;
-    border-radius: 15px;
+    border-radius: 10px;
 
     
+}
+.content h4{
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+}
+
+.content p{
+    color: var(--bright-yellow);
+    font-weight: 400;
+}
+span{
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+}
+#amount{
+    font-size: 1.3em;
+    font-weight: bold;
 }
